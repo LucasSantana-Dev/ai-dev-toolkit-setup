@@ -4,7 +4,9 @@
 
 Portable machine setup for the AI Dev Toolkit stack: bootstrap a new macOS, Ubuntu, or Windows workstation without depending on personal dotfiles.
 
-> **Two branches:** `main` is work-safe (no vendor-CLI coupling, audit-friendly). `personal` adds handoff/resume skills and Codex shortcut wiring. See [`docs/BRANCHES.md`](docs/BRANCHES.md).
+> **Two branches:** `main` is work-safe (no vendor-CLI coupling, audit-friendly). `personal` adds handoff/resume skills and Codex shortcut wiring — see [`docs/personal-extras.md`](docs/personal-extras.md) and [`docs/BRANCHES.md`](docs/BRANCHES.md).
+
+> **You're on the `personal` branch.** Run `bash scripts/install-personal-extras.sh` after `./bootstrap.sh` to enable cross-vendor handoff.
 
 ## Which repository should I use?
 
